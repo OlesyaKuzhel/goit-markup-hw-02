@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,15 +13,15 @@
 </head>
 <body>
     <header class="header">
-        <a class="header-link" href="">webstudio</a>
+        <a class="header-link" href=""><span class="web-link">web</span>studio</a>
         <nav class="nav">
-          <ul class="nav-list">
+          <ul class="nav-list list">
             <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
             <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
             <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
             </ul>
       </nav>
-          <ul>
+          <ul class="contact-list">
               <li>
                   <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
@@ -29,73 +29,74 @@
                   <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
           </ul>
-        </header>
+      </header>
         <main>
         <!--Секция Герой-->
-        <section>
-            <ul>
-                <li> <a href="">Все</a></li>
-                <li> <a href="">Веб-сайты</a></li>
-                <li> <a href="">Приложения</a></li>
-                <li> <a href="">Дизайн</a></li>
-                <li> <a href="">Маркетинг</a></li>
+        <section class="hero-portfolio">
+            <ul class="hero-portfolio-list">
+            <li><button class="hero-portfolio-batton" type="batton">Все</li>
+            <li><button class="hero-portfolio-batton" type="batton">Веб-сайты</li>
+            <li><button class="hero-portfolio-batton" type="batton">Приложения</li>
+            <li><button class="hero-portfolio-batton" type="batton">Дизайн</li>
+            <li><button class="hero-portfolio-batton" type="batton">Маркетинг</li>
             </ul>
         </section>
-        <section>
+        <!--Секция Портфолио-->
+        <section class="portfolio-services">
             <h1 hidden>Портфолио</h1>
-            <ul>
-                <li> 
-                    <img src="./images/technokryak.jpg" alt="Вебсайт">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+            <ul class="portfolio-services-list">
+                <li class="portfolio-services-list"> 
+                    <img src="./images/technokryak.jpg" alt="Вебсайт" width="370" height="294">
+                    <h2 class="portfolio-services-title">Технокряк</h2>
+                    <p class="portfolio-services-text">Веб-сайт</p>
                 </li>
-                <li> 
-                    <img src="./images/neworlean.jpg" alt="Дизайн">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                <li class="portfolio-services-list"> 
+                    <img src="./images/neworlean.jpg" alt="Дизайн" width="370" height="294">
+                    <h2 class="portfolio-services-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="portfolio-services-text">Дизайн</p>
                 </li>
-                <li> 
-                    <img src="./images/seafood.jpg" alt="Приложение">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Приложение</p>
+                <li class="portfolio-services-list"> 
+                    <img src="./images/seafood.jpg" alt="Приложение" width="370" height="294">
+                    <h2 class="portfolio-services-title">Ресторан Seafood</h2>
+                    <p class="portfolio-services-text">Приложение</p>
                 </li>
-                <li> 
-                    <img src="./images/prime.jpg" alt="Маркетинг">
-                    <h2>Проект Prime</h2>
-                    <p>Маркетинг</p>
+                <li class="portfolio-services-list"> 
+                    <img src="./images/prime.jpg" alt="Маркетинг" width="370" height="294">
+                    <h2 class="portfolio-services-title">Проект Prime</h2>
+                    <p class="portfolio-services-text">Маркетинг</p>
                 </li>
-                <li> 
-                    <img src="./images/boxes.jpg" alt="Приложение">
-                    <h2>Проект LAB</h2>
-                    <p>Приложение</p>
+                <li class="portfolio-services-list"> 
+                    <img src="./images/boxes.jpg" alt="Приложение" width="370" height="294">
+                    <h2 class="portfolio-services-title">Проект LAB</h2>
+                    <p class="portfolio-services-text">Приложение</p>
                 </li>
-                <li> 
-                    <img src="./images/borders.jpg" alt="Веб-сайт">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                <li class="portfolio-services-list"> 
+                    <img src="./images/borders.jpg" alt="Веб-сайт" width="370" height="294">
+                    <h2 class="portfolio-services-title">Inspiration has no Borders</h2>
+                    <p class="portfolio-services-text">Веб-сайт</p>
                 </li>
-                <li> 
+                <li class=""> 
                     <img src="./images/limited.jpg" alt="Дизайн">
-                    <h2>Издание Limited Edition</h2>
-                    <p>Дизайн</p>
+                    <h2 class="portfolio-services-title">Издание Limited Edition</h2>
+                    <p class="portfolio-services-text">Дизайн</p>
                 </li>
-                <li> 
+                <li class=""> 
                     <img src="./images/lab.jpg" alt="Маркетинг">
-                    <h2>Проект LAB</h2>
-                    <p>Маркетинг</p>
+                    <h2 class="portfolio-services-title">Проект LAB</h2>
+                    <p class="portfolio-services-text">Маркетинг</p>
                 </li>
-                <li> 
+                <li class=""> 
                     <img src="./images/business.jpg" alt="Приложение">
-                    <h2>Growing Business</h2>
-                    <p>Приложение</p>
+                    <h2 class="portfolio-services-title">Growing Business</h2>
+                    <p class="portfolio-services-text">Приложение</p>
                 </li>
             </ul>
         </section>
         </main>
         <footer class="footer">
-            <a class="footer-link" href="">webstudio</a>
-            <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address
-              <ul class="footer-list">
+            <a class="footer-link" href=""><span class="web-link">web</span>studio</a>
+            <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
+              <ul class="footer-list list">
                 <li class="fotter-item"><a class="footer-mail" href="mailto:info@example.com">info@example.com</a></li>
                 <li class="fotter-item"><a class="footer-phone" href="tel:+380991111111">+38 099 1111 11</a></li>
               </ul>
