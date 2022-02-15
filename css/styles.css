@@ -30,6 +30,14 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
+body{
+font-family: var(--main-font);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
 .header-link, .footer-link{
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -67,8 +75,6 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
-
-
 .subtitle{
 font-family: Roboto;
 font-weight: 700;
@@ -77,6 +83,7 @@ line-height: 1.14px;
 letter-spacing: 0.03em;
 text-transform: none;
 color: #212121;
+text-transform: uppercase;
 }
 
 
@@ -90,10 +97,11 @@ letter-spacing: 0.06em;
 text-transform: none;
 color: #FFFFFF;
 background: #2F303A;
+text-transform: uppercase;
 }
 
 .hero-button{
-font-family: Roboto;
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -105,6 +113,18 @@ color: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 background: #2196F3;
 border-radius: 4px;
+}
+
+hero-button {
+  font-family: inherit;
+}
+
+.about-descr{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*Команда*/
@@ -129,6 +149,16 @@ border-radius: 4px;
     
     .team-list{
         color: rgba(255, 255, 255, 0.6);
+    }
+
+    .team-title, .services-title {
+    font-style: 400;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     }
     
 /*Футер*/
@@ -163,6 +193,15 @@ color: rgba(255, 255, 255, 0.6);
     color: inherit;
   }
 
+  footer{
+  font-family: Raleway;
+  font-style: 400l;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  }
+
  /*Портфолио*/
 
 .hero-portfolio-batton {
@@ -184,7 +223,6 @@ color: rgba(255, 255, 255, 0.6);
  }
 
 .portfolio-services-title {
-font-family: --main-font;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
