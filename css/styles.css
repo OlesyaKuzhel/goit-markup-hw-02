@@ -44,7 +44,8 @@ color: #757575;
     font-size: 26px;
     line-height: 1.19px;
     letter-spacing: 0.03em;
-    color: #212121
+    color: #212121;
+    text-transform: capitalize;
 }
 
  .contact-list{
@@ -54,6 +55,7 @@ color: #757575;
 
 .web-link{
     color: #2196F3;
+    text-transform: capitalize;
 }
 
 .nav-list{
@@ -113,18 +115,6 @@ color: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 background: #2196F3;
 border-radius: 4px;
-}
-
-hero-button {
-  font-family: inherit;
-}
-
-.about-descr{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1,71;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
 
 /*Команда*/
@@ -240,10 +230,18 @@ color: #212121;
  }
 
   .hero-portfolio-batton {
+    font-family: inherit;
     text-decoration: none;
     color: inherit;
-  }
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+   }
 
- ul, ol{
+   ul, ol{
     list-style: none;
- }
+   }
