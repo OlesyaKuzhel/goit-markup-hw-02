@@ -38,14 +38,13 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-.header-link, .footer-link{
+.header-link, .footer-link {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19px;
     letter-spacing: 0.03em;
     color: #212121;
-    text-transform: capitalize;
 }
 
  .contact-list{
@@ -55,7 +54,6 @@ color: #757575;
 
 .web-link{
     color: #2196F3;
-    text-transform: capitalize;
 }
 
 .nav-list{
@@ -175,6 +173,12 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-link{
+  font-family: Raleway;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
     color: #FFFFFF;
     }
 
@@ -183,18 +187,18 @@ color: rgba(255, 255, 255, 0.6);
     color: inherit;
   }
 
-  footer{
-  font-family: Raleway;
-  font-style: 400l;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  }
 
+  .fotter-item{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
  /*Портфолио*/
 
-.hero-portfolio-batton {
+.hero-portfolio-batton{
  font-family:var(--main-font);
  font-weight: 500;
  font-size: 16px;
@@ -212,7 +216,7 @@ color: rgba(255, 255, 255, 0.6);
     color: #FFFFFF;
  }
 
-.portfolio-services-title {
+.portfolio-services-title{
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -244,4 +248,8 @@ color: #212121;
 
    ul, ol{
     list-style: none;
+   }
+
+   .nav-item:hover {
+    color: #2196F3;
    }
